@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nyakinombe Miracle Centre</title>
+<style>
+body{margin:0;font-family:Arial;background:#fffdf7}
+header{background:#0a1931;color:#fff;padding:20px;text-align:center}
+header img{width:80px;height:80px;border-radius:50%;border:3px solid #ffd700;background:#fff}
+header h1{color:#ffd700;margin:10px 0 0}
+nav{background:#ffd700;padding:10px;text-align:center}
+nav a{margin:0 10px;color:#0a1931;font-weight:bold;text-decoration:none}
+.hero{background:#0a1931;color:#fff;padding:50px 20px;text-align:center}
+.btn{background:#ffd700;color:#0a1931;padding:12px 25px;border-radius:30px;text-decoration:none;font-weight:bold;display:inline-block;margin-top:15px}
+section{padding:20px 15px;max-width:1000px;margin:auto}
+.card{background:#fff;padding:20px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.1);margin-bottom:15px}
+.card img{width:100%;border-radius:12px}
+footer{background:#0a1931;color:#fff;text-align:center;padding:25px}
+</style>
+</head>
+<body>
+<header>
+<img src="logo.png" alt="Logo">
+<h1>NYAKINOMBE MIRACLE CENTRE</h1>
+<p>Mark 10:27 - With God All Things Are Possible</p>
+</header>
+<nav><a href="#">Home</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<div class="hero"><h2>Where God Still Does Miracles</h2><a class="btn" href="#contact">Join Us Sunday 9AM</a></div>
+<section>
+<div class="card" id="about">
+<h3>Our Church Building</h3>
+<img src="church.jpg" alt="Church">
+<p>Christ-centered church in Nyakinombe, Isingiro, Uganda. Led by Pastor Abraham Tukwatsibwe.</p>
+</div>
+<div class="card"><h3>Services</h3><p>Sunday: 9AM-12:30PM<br>Friday: 5PM-9PM<br>Wednesday: 5PM-6:30PM</p></div>
+<div class="card" id="contact"><h3>Contact</h3><p>Nyakinombe, Isingiro, Uganda<br>+256 700 000000<br>nyakinombemiracle@gmail.com</p><a class="btn" href="https://wa.me/256700000000">WhatsApp Us</a></div>
+</section>
+<footer>© 2026 Nyakinombe Miracle Centre</footer>
+</body>
+</html>
